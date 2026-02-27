@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: N.Shalini
+* **Register Number**:212224040305 
+* **Date of Submission**: 
 
 ---
 
@@ -80,33 +80,34 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+Explored Amazon EBS volume types in the EC2 dashboard and noted their differences in performance and use cases.
 
----
+Created a new EBS volume in the same Availability Zone as my EC2 instance with an appropriate size and type.
+
+Attached the newly created EBS volume to the running EC2 instance as an additional block device.
+
+Connected to the EC2 instance via SSH and formatted the attached volume with the ext4 file system.
+
+Mounted the formatted volume to a directory (e.g., /data) and stored sample files to verify data persistence.
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (122)" src="https://github.com/user-attachments/assets/97740906-4b6e-4d00-a652-a256568fc27e" />
 
----
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (124)" src="https://github.com/user-attachments/assets/e45fb2b1-8da6-468f-a3cb-369233d686ac" />
 
----
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
 
----
+<img width="1920" height="1200" alt="Screenshot (131)" src="https://github.com/user-attachments/assets/e7e2b838-af0d-42ad-8941-4f90b81417bc" />
+
+
 
 ## Result / Conclusion
 
